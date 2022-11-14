@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Stacja Paliw</title>
     <link rel="stylesheet" href="styl.css">
 </head>
 
 <body>
-    <div class="gora">
+    <div class="lewo">
         <h1>Stacja Paliw</h1>
     </div>
-    <div class="gora">
+    <div class="prawo">
         <a href="stacja.html" target="_blank">
             <img src="home.png">
         </a>
@@ -19,18 +19,21 @@
             <img src="znak.png">
         </a>
     </div>
-    <div id="blok-glowny">
+    <div class="mid">
         <h3>Oblicz koszt paliwa</h3>
         <label for="rodzaj">Rodzaj paliwa (1-benzyna, 2-olej napędowy) <br><input type="number" name="rodzaj" id="rdz"></label> <br>
-        <label for="ile">Ile litrów <br><input type="number" name="ile" id="ile"></label>
+        <label for="ile">Ile litrów <br><input type="number" name="ile" id="ile"></label><br>
         <button>Oblicz</button>
     </div>
-    <div class="dol">
-        <a href="kwerendy.txt">Pobierz kwerendy</a>
+    <div class="lewo">
+        <a href="kwerendy.txt" target="_blank">Pobierz kwerendy</a>
     </div>
-    <div class="dol">
-        <img src="samochod.png" alt="Samochód">
+    <div class="prawo">
+        <img src="samochod.png" alt="Samochód" style="height: 200px;">
     </div>
+    <footer  class="mid">
+        <p>Stronę opracował: Stanisław Fiedoruk 4J</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 

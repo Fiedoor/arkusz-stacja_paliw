@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(240, 234, 226);
+}
+td{
+    padding: 10px;
+    color: rgb(130, 69, 85);
+    border-width: 1px;
+    border-color: rgb(130, 69, 85);
+    border-style: solid;
+}
+table{
+    border:solid 1px rgb(130, 69, 85);
+    padding: 10px;
+}
+div{
+    display: block;
+    margin: 0;
+}
+.lewo{
+    float: left;
+    color: white;
+    background-color: rgb(130, 69, 85);
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+.prawo{
+    color: white;
+    background-color: rgb(130, 69, 85);
+    width: 70%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+.mid{
+    background-color: rgb(240, 234, 226);
+    padding: 120px;
+}
